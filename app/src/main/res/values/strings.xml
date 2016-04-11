@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TvFirst</string>
+    <string name="first_text">Hello Tv!!!</string>
+    <string name="second_text">Hello Android!!!!</string>
+    <string name="third_text">Hello!!!!!</string>
+
+</resources>

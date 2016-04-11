@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="green_button">#009688</color>
+    <color name="orange_button">#FF9800</color>
+    <color name="blue_button">#03A9F4</color>
+    <color name="gray_button">#9E9E9E</color>
+    <color name="indigo">#9A939E</color>
+    <color name="true_indigo">#1A237E</color>
+
+
+    <color name="white">#FFFFFF</color>
+
+
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="@style/Theme.Leanback"/>
+
+    <style name="LoadingCardStyle">
+        <item name="loading_background_color">@android:color/holo_red_dark</item>
+    </style>
+
+    <style name="IconCardStyle">
+        <item name="icon_title_background_color">@color/primary</item>
+        <item name="icon_detail_background_color">@color/primary_dark</item>
+        <item name="icon_title_text_color">@color/white</item>
+        <item name="icon_detail_text_color">@color/white</item>
+    </style>
+
+</resources>

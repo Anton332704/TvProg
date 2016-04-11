@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.hitherejoe.leanbackcards"
+    tools:ignore="MissingLeanbackLauncher">
+
+    <uses-feature android:name="android.software.leanback" android:required="true"/>
+
+    <application tools:ignore="AllowBackup,GoogleAppIndexingWarning,MissingApplicationIcon" />
+
+</manifest>

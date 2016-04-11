@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- Screen elements that can render outside the overscan safe area go here -->
+
+    <!-- Nested RelativeLayout with overscan-safe margin -->
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="27dp"
+        android:layout_marginBottom="27dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="48dp">
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello"
+            android:id="@+id/textViewHello"
+            style="@style/MyTextView">
+
+        </TextView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Button"
+            android:id="@+id/button1"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/buttons"
+            android:onClick="handleClick">
+
+            <requestFocus/>
+
+        </Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Button"
+            android:id="@+id/button2"
+            android:layout_alignTop="@+id/button1"
+            android:layout_toEndOf="@+id/button1"
+            android:layout_marginStart="115dp"
+            android:background="@drawable/buttons"
+            android:onClick="handleClick"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Button"
+            android:id="@+id/button3"
+            android:layout_alignTop="@+id/button2"
+            android:layout_toEndOf="@+id/button2"
+            android:layout_marginStart="115dp"
+            android:background="@drawable/buttons"
+            android:onClick="handleClick"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/listView"
+            android:layout_toEndOf="@+id/button3"
+            android:layout_marginStart="37dp"
+            android:layout_alignParentTop="true" />
+        <!-- Screen elements that need to be within the overscan safe area go here -->
+
+
+
+    </RelativeLayout>
+</RelativeLayout>
